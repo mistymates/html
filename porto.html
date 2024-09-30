@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <style>
+            body {
+                background-color: #f0f0f0;
+                color: #333;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 0;
+                padding: 0;
+            }
+            nav {
+                background-color: #033d4f;
+                padding: 10px;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                text-align: left;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            nav ul li {
+                display: inline;
+                margin-right: 20px;
+            }
+            nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                font-size: 20px;
+                padding: 10px;
+            }
+            nav ul li a:hover {
+                background-color: #ffe600;
+                color: #042f3e;
+                border-radius: 5px;
+            }
+            h1, h2 {
+                text-align: center;
+                color: #033d4f;
+                margin-top: 50px;
+            }
+            .projects-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 50px auto;
+                max-width: 800px;
+            }
+            .project {
+                background-color: #ffffff;
+                box-shadow: 0 4px 8px #0000;
+                border-radius: 10px;
+                margin: 20px;
+                padding: 20px;
+                width: 100%;
+                max-width: 800px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: transform 0.3s;
+            }
+            .project:hover {
+                transform: translateY(-5px);
+            }
+            .project img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            .project p {
+                font-size: 18px;
+                color: #555;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+
+        <nav>
+            <ul>
+                <li><a href="index1.html">Home</a></li>
+                <li><a href="porto.html" style="font-weight: bold;">Portfolio</a></li>
+            </ul>
+        </nav>
+
+        <h1>My Portfolio</h1>
+        <h2>Projects</h2>
+
+        <div class="projects-container">
+            <div class="project">
+                <img src="D:/branding.jpg" alt="Project 1 Image">
+                <p><strong>Project 1:</strong> Personal Branding Campaign</p>
+            </div>
+
+            <div class="project">
+                <img src="D:/Honda.png" alt="Project 2 Image">
+                <p><strong>Project 2:</strong> Made an application for Honda Motors</p>
+
+
+            </div>
+            <div class="project">
+                <img src="D:/sos.jpg" alt="Project 3 Image">
+                <p><strong>Project 3:</strong> Application for SOS</p>
+            </div>
+        </div>
+
+    </body>
+</html>
